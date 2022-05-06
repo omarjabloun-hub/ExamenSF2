@@ -25,6 +25,9 @@ class Entreprise
     {
         return $this->designation;
     }
+    public function __toString(){
+        return $this->designation ;
+    }
 
     public function setDesignation(string $designation): self
     {
